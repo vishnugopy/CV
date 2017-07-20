@@ -1,33 +1,76 @@
-h1{
-  color:
+body{
+  background:black;
+  width:1500px;
+
+
 }
 
 header{
-  border-bottom:2px solid black;
+  border-bottom:3px solid blue;
+
 }
 .photo{
   height:280px;
   width:200px;
-  border:1px red dashed;
+  border:1px blue solid;
   margin:24px;
+ background-position:center;
+}
+
+h1{
+  font-family: 'Artifika', serif;
+}
+
+h4{
+  font-family: 'Acme', sans-serif;
 }
 
 .top{
   display:flex;
   flex-direction:row;
-  background-color:whitesmoke;
+  background-color:#FFFF99;
   justify-content:flex-start;
+  color:black;
 }
+
 .contract{
   display:flex;
   flex-direction:row;
-  background-color:blue;
+  background-color: #80CCFF;
   opacity:1;
-  color:white;
+  color:black;
   justify-content:space-around;
 
 }
 .fa{
   margin-top:24px;
+
+}
+.three{
+  display:flex;
+  flex-direction:column;
+  color:white;
+}
+
+.bottom{
+  border-bottom:4px solid springgreen;
+  font-family: 'Orbitron', sans-serif;
+}
+.pad{
+  margin-top:24px;
+  padding:15px;
+  border:2px solid yellow;
+  color:white;
+}
+footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background:#838480;
+  color:white;
+  margin-top:10px;
+}
+
+ol,ul{
 
 }
