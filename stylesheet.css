@@ -28,7 +28,7 @@ h4{
 .top{
   display:flex;
   flex-direction:row;
-  background-color:#FFFF99;
+  background-color:#f9f9a7;
   justify-content:flex-start;
   color:black;
 }
@@ -36,10 +36,11 @@ h4{
 .contract{
   display:flex;
   flex-direction:row;
-  background-color: #80CCFF;
+  background-color: #a7f6f9;
   opacity:1;
   color:black;
   justify-content:space-around;
+  text-align:center;
 
 }
 .fa{
@@ -72,5 +73,5 @@ footer{
 }
 
 ol,ul{
-
+font-family: 'Cabin Condensed', sans-serif;
 }
