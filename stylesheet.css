@@ -1,3 +1,33 @@
 h1{
-  color:red
+  color:
+}
+
+header{
+  border-bottom:2px solid black;
+}
+.photo{
+  height:280px;
+  width:200px;
+  border:1px red dashed;
+  margin:24px;
+}
+
+.top{
+  display:flex;
+  flex-direction:row;
+  background-color:whitesmoke;
+  justify-content:flex-start;
+}
+.contract{
+  display:flex;
+  flex-direction:row;
+  background-color:blue;
+  opacity:1;
+  color:white;
+  justify-content:space-around;
+
+}
+.fa{
+  margin-top:24px;
+
 }
