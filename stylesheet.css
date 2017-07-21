@@ -74,4 +74,23 @@ footer{
 
 ol,ul{
 font-family: 'Cabin Condensed', sans-serif;
+animation-duration: 1s;
+animation-name:glissement;
+animation-iteration-count:1s;
+}
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+a{
+  color:black;
+
 }
