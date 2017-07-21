@@ -94,10 +94,10 @@ animation-iteration-count:1s;
 
 @keyframes jump {
   0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
-  40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
-  70%{transform: translate3d(0,70%,0) scale3d(1.5,.7,1);}
+  40%  {transform: translate3d(0,30%,0) scale3d(1,1,1);}
+  70%{transform: translate3d(0,70%,0) scale3d(1,1,1);}
 }
-.jump {
+.vv{
   transform-origin: 50% 50%;
   animation: jump .5s linear alternate infinite;
 }
